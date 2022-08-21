@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1.5fr 1.2fr 0.2r 0.8fr ;
+  gap: 2.5rem;
+  padding: 0 10rem;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "main-1 main-2 sidebar"
+    "pre-footer pre-footer pre-footer"
+    "footer footer footer"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: red;
+  margin: 0 -10rem;
+;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: blue;
+  margin-top: -2.5rem;
+  margin-left: -10rem;
+  margin-right: -10rem;
+}
+
+.main-1 {
+  grid-area: main-1;
+}
+
+.main-1 article {
+    background-color: green;
+    margin-top: 3.125rem;
+}
+
+.main-2 {
+  grid-area: main-2;
+}
+
+.main-2 article {
+    background-color: yellow;
+    margin-top: 3.125rem;
+}
+
+.pagination {
+    display: block;
+    text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  margin-top: 3.125rem;
+}
+
+.cat-1 {
+    background-color: pink;
+    margin-bottom: 30px;
+}
+
+.cat-2 {
+    background-color: pink;
+    margin-bottom: 30px;
+}
+
+.cat-3 {
+    background-color: pink;
+}
+
+.pre-footer {
+  grid-area: pre-footer;
+  background-color: orange;
+  margin: 0 -10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header {
+    padding: 60px;
+    text-align: center;
+    background: red;
+    color: #fff;
+    font-size: 30px;
+}
+.logo {
+    text-align: left;
+}
+
+.container {
+    width: 2000x;
+    max-width: 100%;
+    padding: 20px;
+    margin: 100 auto;
+}
+
+.main-header {
+    background-color: red;
+}
+
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-header .title, p {
+    text-align: center;
+}
+
+.main-navigation ul{
+    text-align: center;
+}
+
+.main-navigation li {
+    display: inline;
+}
+
+.main-navigation a {
+    display: inline-block;
+    padding: .5em 1.5em;
+    text-align: center;
+}
+
+.main-navigation {
+    text-align: center;
+}
+
+.main-navigation-list {
+    padding: 0;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: aqua;
+    }
+
+.parent-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: yellow;
+    }
+    */
