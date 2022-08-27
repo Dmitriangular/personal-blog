@@ -75,6 +75,7 @@ main {
   .cat-1 li {
     display: flex;
     justify-content: space-between;
+    border-bottom: black solid 1px;
   }
 
   .cat-1.side {

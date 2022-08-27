@@ -1,12 +1,30 @@
 @media (min-width: 500px) {
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    background-color: #f5f5f5;
+  }
+
+  .header h2 {
+    color: red;
+    margin: 0;
+  }
+
+  .header button {
+
+  }
   
   .main {
     display: grid;
     gap: 2.5rem;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "main-post main-post sidebar";
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .main-post {
@@ -55,6 +73,11 @@
     padding: 100px;
   }
 
+  .main-navigation {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
   .main-navigation ul {
     padding-top: 0;
   }
@@ -67,6 +90,14 @@
     padding: 0.5rem;
     background-color: #f5f5f5;
     gap: 1rem;
+  }
+
+  .main-navigation-list li a {
+    text-align: center;
+    padding: 0.8rem;
+    background-color: #f5f5f5;
+    gap: 1rem;
+    margin-top: 0.5rem;
   }
 
   .side {
@@ -82,6 +113,7 @@
   .cat-1 li {
     display: flex;
     justify-content: space-between;
+    border-bottom: black solid 1px;
   }
 
   .cat-1.side {
