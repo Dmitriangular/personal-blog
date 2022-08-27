@@ -1,5 +1,4 @@
 @media (min-width: 500px) {
-
   .header {
     display: flex;
     justify-content: space-between;
@@ -14,10 +13,6 @@
     margin: 0;
   }
 
-  .header button {
-
-  }
-  
   .main {
     display: grid;
     gap: 2.5rem;
@@ -57,7 +52,7 @@
     flex-direction: row;
     margin-left: 100px;
     margin-right: 100px;
-    gap: 2.5rem;  
+    gap: 2.5rem;
   }
 
   .contact-info {
@@ -122,7 +117,7 @@
     border-radius: 3px;
     margin-bottom: 30px;
   }
-  
+
   .cat-2 {
     padding: 30px;
     margin-bottom: 30px;
@@ -156,5 +151,4 @@
     border-radius: 3px;
     margin-bottom: 30px;
   }
-
 }
