@@ -102,17 +102,202 @@ main {
   padding: 2rem 0;
   margin-left: 20px;
   margin-right: 20px;
+
+}
+
+.main-post-one.profile-pic {
+  width: 20px;
+}
+
+.main-post-one {
+  grid-area: main-post-one;
+  margin-bottom: 30px;
+}
+
+.main-post-two {
+  grid-area: main-post-two;
+  margin-bottom: 30px;
+}
+
+.main-post-three {
+  grid-area: main-post-three;
+  margin-bottom: 30px;
+}
+
+.main-post-four {
+  grid-area: main-post-four;
+  margin-bottom: 30px;
+}
+
+.main-post-five {
+  grid-area: main-post-five;
+  margin-bottom: 30px;
+}
+
+.main-post-six {
+  grid-area: main-post-six;
+  margin-bottom: 30px;
+}
+
+.main-post-one h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+.main-post-two h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+.main-post-three h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+.main-post-four h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+.main-post-five h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+.main-post-six h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-top: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+.main-post-one p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875m;
+  font-weight: 600;
+  padding-top: 25px;
+  margin-top: 0;
+  color: #999;
+}
+
+.main-post-two p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875m;
+  font-weight: 600;
+  padding-top: 25px;
+  margin-top: 0;
+  color: #999;
+}
+
+.main-post-three p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875m;
+  font-weight: 600;
+  padding-top: 25px;
+  margin-top: 0;
+  color: #999;
+}
+
+.main-post-four p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875m;
+  font-weight: 600;
+  padding-top: 25px;
+  margin-top: 0;
+  color: #999;
+}
+
+.main-post-five p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875m;
+  font-weight: 600;
+  padding-top: 25px;
+  margin-top: 0;
+  color: #999;
+}
+
+.main-post-six p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875m;
+  font-weight: 600;
+  padding-top: 25px;
+  margin-top: 0;
+  color: #999;
+}
+
+.main-post-one img {
+  border-radius: 10px;
+}
+
+.main-post-two img {
+  border-radius: 10px;
+}
+
+.main-post-three img {
+  border-radius: 10px;
+}
+
+.main-post-four img {
+  border-radius: 10px;
+}
+
+.main-post-five img {
+  border-radius: 10px;
+}
+
+.main-post-six img {
+  border-radius: 10px;
+}
+
+.author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.author p {
+  padding-top: 15px;
 }
 
 .post img {
   width: 100%;
 }
 
+.post img.profile-pic {
+  width: 15%;
+  height: 150%;
+}
+
 .side {
-  border: black solid 1px;
   border-radius: 10px;
   padding-left: 20px;
   margin-bottom: 30px;
+}
+
+time {
+  font-weight: 600;
 }
 
 .cat-1 {
@@ -122,10 +307,17 @@ main {
 
 .cat-1 h3 {
   color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  margin-top: 0;
 }
 
 .cat-1 p {
   color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .cat-1 li {
@@ -148,10 +340,18 @@ main {
 
 .cat-2 h3 {
   color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  margin-top: 0;
 }
 
 .cat-2 p {
   color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.813em;
+  font-weight: 300;
+  margin: 0;
 }
 
 .cat-2 li {
@@ -174,10 +374,18 @@ main {
 
 .cat-3 h3 {
   color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  margin-top: 0;
 }
 
 .cat-3 p {
   color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 10px;
 }
 
 .cat-3 li {
@@ -199,11 +407,30 @@ main {
   padding-bottom: 2rem;
 }
 
+.side-post-two img {
+  width: 25%;
+  height: 15%;
+  margin: 0;
+  border-radius: 5px;
+}
+
 .tag-one,
 .tag-two,
 .tag-three {
   display: flex;
   gap: 2rem;
+}
+
+.tag-one p {
+  font-weight: 600;
+}
+
+.tag-two p {
+  font-weight: 600;
+}
+
+.tag-three p {
+  font-weight: 600;
 }
 
 .pagination {

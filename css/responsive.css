@@ -1,6 +1,5 @@
 @media (min-width: 500px) {
-
-  body{
+  body {
     background: #202124;
   }
 
@@ -10,7 +9,7 @@
     align-items: center;
     padding: 0.5rem;
     padding-top: 1.5rem;
-    background-color: #A646A7;
+    background-color: #a646a7;
   }
 
   .header h2 {
@@ -18,7 +17,7 @@
   }
 
   .logo {
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: 3.75em;
     color: #fff;
   }
@@ -39,23 +38,42 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "main-post-one main-post-two"
-      "main-post-three main-post-four";
+      "main-post-three main-post-four"
+      "main-post-five main-post-six";
   }
 
-  .main-post-one {
+  .main-post-one.profile-pic {
+    width: 20px;
+  }
+
+  div.main-post-one.post{
     grid-area: main-post-one;
+    margin-bottom: 0px;
   }
-
-  .main-post-two {
+  
+  div.main-post-two.post {
     grid-area: main-post-two;
+    margin-bottom: 0px;
   }
-
-  .main-post-three {
+  
+  div.main-post-three {
     grid-area: main-post-three;
+    margin-bottom: 0px;
+  }
+  
+  div.main-post-four {
+    grid-area: main-post-four;
+    margin-bottom: 0px;
   }
 
-  .main-post-four {
-    grid-area: main-post-four;
+  div.main-post-five {
+    grid-area: main-post-five;
+    margin-bottom: 0px;
+  }
+
+  div.main-post-six {
+    grid-area: main-post-six;
+    margin-bottom: 0px;
   }
 
   .main-post-one img {
@@ -82,6 +100,11 @@
     border-radius: 10px;
   }
 
+  .author {
+    display: flex;
+    gap: 2rem;
+  }
+
   .contact-bottom {
     display: flex;
     flex-direction: row;
@@ -106,7 +129,7 @@
   .main-navigation {
     margin-left: 200px;
     margin-right: 200px;
-    background-color: #A646A7;
+    background-color: #a646a7;
   }
 
   .main-navigation ul {
@@ -119,14 +142,14 @@
     justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
-    background-color: #A646A7;
+    background-color: #a646a7;
     gap: 1rem;
   }
 
   .main-navigation-list li a {
     text-align: center;
     padding: 0.8rem;
-    background-color: #A646A7;
+    background-color: #a646a7;
     gap: 1rem;
     margin-top: 0.5rem;
   }
@@ -135,27 +158,56 @@
     text-align: center;
     background: #202124;
   }
-  
+
   .dimitri h1 {
     font-family: "Bebas Neue", cursive;
     font-size: 10.5em;
     padding-bottom: 0;
     margin-bottom: 0;
-    color: #A646A7;
+    color: #a646a7;
   }
-  
+
   .dimitri h3 {
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 3em;
-    color: #A646A7;
+    color: #a646a7;
+  }
+
+  .main-post-one {
+    grid-area: main-post-one;
+    margin-bottom: 30px;
+  }
+
+  .main-post-two {
+    grid-area: main-post-two;
+    margin-bottom: 30px;
+  }
+
+  .main-post-three {
+    grid-area: main-post-three;
+    margin-bottom: 30px;
+  }
+
+  .main-post-four {
+    grid-area: main-post-four;
+    margin-bottom: 30px;
   }
 
   .side {
-    border: black solid 1px;
     margin-bottom: 30px;
+  }
+
+  .side-post-two {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 0;
+  }
+
+  time {
+    font-weight: 600;
   }
 
   .cat-1 {
@@ -166,11 +218,9 @@
   .cat-1 li {
     display: flex;
     justify-content: space-between;
-    border-bottom: black solid 1px;
   }
 
   .cat-1.side {
-    border: black solid 1px;
     padding-left: 30px;
     border-radius: 3px;
     margin-bottom: 30px;
@@ -215,8 +265,9 @@
 
   .cat-2 p {
     font-family: "Poppins", sans-serif;
-    font-size: 1em;
+    font-size: 0.813em;
     font-weight: 300;
+    margin: 0;
   }
 
   .cat-3 {
