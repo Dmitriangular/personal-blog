@@ -1,16 +1,26 @@
 @media (min-width: 500px) {
+
+  body{
+    background: #202124;
+  }
+
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
     padding-top: 1.5rem;
-    background-color: #f5f5f5;
+    background-color: #A646A7;
   }
 
   .header h2 {
-    color: red;
     margin: 0;
+  }
+
+  .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.75em;
+    color: #fff;
   }
 
   .main {
@@ -43,8 +53,33 @@
   .main-post-three {
     grid-area: main-post-three;
   }
+
   .main-post-four {
     grid-area: main-post-four;
+  }
+
+  .main-post-one img {
+    border-radius: 10px;
+  }
+
+  .main-post-two img {
+    border-radius: 10px;
+  }
+
+  .main-post-three img {
+    border-radius: 10px;
+  }
+
+  .main-post-four img {
+    border-radius: 10px;
+  }
+
+  .main-post-five img {
+    border-radius: 10px;
+  }
+
+  .main-post-six img {
+    border-radius: 10px;
   }
 
   .contact-bottom {
@@ -71,6 +106,7 @@
   .main-navigation {
     margin-left: 200px;
     margin-right: 200px;
+    background-color: #A646A7;
   }
 
   .main-navigation ul {
@@ -83,16 +119,38 @@
     justify-content: space-around;
     align-items: center;
     padding: 0.5rem;
-    background-color: #f5f5f5;
+    background-color: #A646A7;
     gap: 1rem;
   }
 
   .main-navigation-list li a {
     text-align: center;
     padding: 0.8rem;
-    background-color: #f5f5f5;
+    background-color: #A646A7;
     gap: 1rem;
     margin-top: 0.5rem;
+  }
+
+  .dimitri {
+    text-align: center;
+    background: #202124;
+  }
+  
+  .dimitri h1 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 10.5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #A646A7;
+  }
+  
+  .dimitri h3 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3em;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 3em;
+    color: #A646A7;
   }
 
   .side {
@@ -118,6 +176,19 @@
     margin-bottom: 30px;
   }
 
+  .cat-1 h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .cat-1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
   .cat-2 {
     padding: 30px;
     margin-bottom: 30px;
@@ -135,6 +206,19 @@
     margin-bottom: 30px;
   }
 
+  .cat-2 h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .cat-2 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
   .cat-3 {
     padding: 30px;
     margin-bottom: 30px;
@@ -150,5 +234,18 @@
     padding-left: 30px;
     border-radius: 3px;
     margin-bottom: 30px;
+  }
+
+  .cat-3 h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .cat-3 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
   }
 }
