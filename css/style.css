@@ -20,7 +20,8 @@ ul {
   justify-content: space-around;
   align-items: center;
   padding: 0.5rem;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #a646a7;
 }
 
@@ -28,18 +29,13 @@ ul {
   font-family: "Bebas Neue", cursive;
   font-size: 3.75em;
   color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .main-navigation-list {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0.5rem;
-  background-color: #f5f5f5;
-  gap: 1rem;*/
-  padding-top: 3rem;
-  height: auto;
+  padding-top: 0;
+  height: 6.25rem;
   background-color: #a646a7;
 }
 
@@ -56,6 +52,7 @@ ul {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .sign-up {
@@ -63,14 +60,16 @@ ul {
   font-weight: 500;
   background-color: #ddd;
   border: none;
-  color: black;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 0.25rem 0.125rem;
   cursor: pointer;
   border-radius: 50px;
+}
+
+.sign-up a {
+  text-decoration: none;
 }
 
 .dimitri {
@@ -82,7 +81,7 @@ ul {
   font-family: "Bebas Neue", cursive;
   font-size: 6.5em;
   padding-bottom: 0;
-  margin-top: 1.5em;
+  margin-top: 18rem;
   margin-bottom: 0;
   color: #a646a7;
   line-height: 90px;
@@ -94,49 +93,49 @@ ul {
   font-weight: 300;
   padding-top: 0;
   margin-top: 0;
-  margin-bottom: 3.3em;
+  margin-bottom: 15.3rem;
   color: #a646a7;
 }
 
 main {
   padding: 2rem 0;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 
 }
 
 .main-post-one.profile-pic {
-  width: 20px;
+  width: 1.25rem;
 }
 
 .main-post-one {
   grid-area: main-post-one;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .main-post-two {
   grid-area: main-post-two;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .main-post-three {
   grid-area: main-post-three;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .main-post-four {
   grid-area: main-post-four;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .main-post-five {
   grid-area: main-post-five;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .main-post-six {
   grid-area: main-post-six;
-  margin-bottom: 30px;
+  margin-bottom: 4.9rem;
 }
 
 .main-post-one h3 {
@@ -195,54 +194,54 @@ main {
 
 .main-post-one p {
   font-family: "Poppins", sans-serif;
-  font-size: 0.875m;
+  font-size: 0.875em;
   font-weight: 600;
-  padding-top: 25px;
+  padding-top: 1.563rem;
   margin-top: 0;
   color: #999;
 }
 
 .main-post-two p {
   font-family: "Poppins", sans-serif;
-  font-size: 0.875m;
+  font-size: 0.875em;
   font-weight: 600;
-  padding-top: 25px;
+  padding-top: 1.563rem;
   margin-top: 0;
   color: #999;
 }
 
 .main-post-three p {
   font-family: "Poppins", sans-serif;
-  font-size: 0.875m;
+  font-size: 0.875em;
   font-weight: 600;
-  padding-top: 25px;
+  padding-top: 1.563rem;
   margin-top: 0;
   color: #999;
 }
 
 .main-post-four p {
   font-family: "Poppins", sans-serif;
-  font-size: 0.875m;
+  font-size: 0.875em;
   font-weight: 600;
-  padding-top: 25px;
+  padding-top: 1.563rem;
   margin-top: 0;
   color: #999;
 }
 
 .main-post-five p {
   font-family: "Poppins", sans-serif;
-  font-size: 0.875m;
+  font-size: 0.875em;
   font-weight: 600;
-  padding-top: 25px;
+  padding-top: 1.563rem;
   margin-top: 0;
   color: #999;
 }
 
 .main-post-six p {
   font-family: "Poppins", sans-serif;
-  font-size: 0.875m;
+  font-size: 0.875em;
   font-weight: 600;
-  padding-top: 25px;
+  padding-top: 1.563rem;
   margin-top: 0;
   color: #999;
 }
@@ -278,7 +277,11 @@ main {
 }
 
 .author p {
-  padding-top: 15px;
+  padding-top: 0.938rem;
+  color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
 }
 
 .post img {
@@ -292,8 +295,8 @@ main {
 
 .side {
   border-radius: 10px;
-  padding-left: 20px;
-  margin-bottom: 30px;
+  padding-left: 1.25rem;
+  margin-bottom: 1.875rem;
 }
 
 time {
@@ -301,8 +304,8 @@ time {
 }
 
 .cat-1 {
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 
 .cat-1 h3 {
@@ -328,14 +331,14 @@ time {
 
 .cat-1.side {
   border: #a646a7 solid 1px;
-  padding-left: 30px;
+  padding-left: 1.875rem;
   border-radius: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .cat-2 {
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 
 .cat-2 h3 {
@@ -362,14 +365,14 @@ time {
 
 .cat-2.side {
   border: #a646a7 solid 1px;
-  padding-left: 30px;
+  padding-left: 1.875rem;
   border-radius: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .cat-3 {
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 
 .cat-3 h3 {
@@ -385,7 +388,7 @@ time {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
   font-weight: 300;
-  line-height: 10px;
+  line-height: 0.625rem;
 }
 
 .cat-3 li {
@@ -396,9 +399,9 @@ time {
 
 .cat-3.side {
   border: #a646a7 solid 1px;
-  padding-left: 30px;
+  padding-left: 1.875rem;
   border-radius: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .side-post-two {
@@ -439,23 +442,64 @@ time {
   gap: 0.5rem;
 }
 
+button.btn-1,
+button.btn-2,
+button.btn-3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  background: none;
+  border: #fff solid 1px;
+  padding: 0.625rem 0.625rem;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button.btn-1 a,
+button.btn-2 a,
+button.btn-3 a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .btn-3 {
-  width: 100px;
-  height: 50px;
+  width: 6.25rem;
+  height: 3.125rem;
 }
 
 .btn-1,
 .btn-2 {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .contact {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: 5rem;
+  padding: 2.188rem 1.25rem 0.313rem 1.25rem;
+  background-color: #a646a7;
 }
 .contact-top {
   text-align: center;
+}
+
+.contact-top h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.2em;
+  font-weight: 600;
+  padding-top: 0.625rem;
+  margin-top: 0;
+  color: #fff;
+}
+
+.contact-top h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+  padding-top: 1.563rem;
+  margin: 0;
+  color: #ccc;
 }
 
 .title-Contact {
@@ -464,14 +508,34 @@ time {
 }
 
 .contact-info {
-  border: solid 1px black;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   width: 100%;
   margin-bottom: 2rem;
+  padding: 0.563rem 1.25rem 1.25rem 1.25rem;
+  background-color: #cd69ce;
+}
+
+.contact-info h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6em;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 0.438rem;
+  margin-top: 0;
+}
+
+.contact-info p {
+  color: #303134;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
 }
 
 .pre-footer {
   background-color: #303134;
+  padding-top: 3.125rem;
+  padding-bottom: 2.5rem
 }
 
 .pre-footer-nav {
@@ -479,15 +543,53 @@ time {
   justify-content: space-around;
   align-items: center;
   padding: 0.5rem;
-  padding-right: 0%;
+  padding-right: 0;
   background-color: #303134;
   gap: 0.5rem;
 }
 
+.pre-footer-nav-links h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125em;
+  font-weight: 600;
+  padding-top: 1.563rem;
+  margin: 0;
+  color: #ccc;
+  line-height: 60px;
+}
+
+.pre-footer-nav-links a {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.975em;
+  font-weight: 300;
+  padding-top: 1.563rem;
+  margin: 0;
+  color: rgba(204, 204, 204, 0.327);
+  line-height: 40px;
+  text-decoration: none;
+}
+
 .pre-footer-social {
-  padding-top: 2rem;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding-top: 0.2rem;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.pre-footer-social p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0;
+  line-height: 35px;
+}
+
+.footer-logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.75em;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -497,4 +599,13 @@ time {
   padding: 0.5rem;
   background-color: #f5f5f5;
   gap: 0.5rem;
+}
+
+.footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 1.563rem;
+  margin: 0;
+  color: #303134;
 }
