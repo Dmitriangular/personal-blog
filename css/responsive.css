@@ -14,6 +14,10 @@
     height: 6.25rem;
   }
 
+  .header a {
+    text-decoration: none;
+  }
+
   .header h2 {
     margin: 0;
   }
@@ -42,6 +46,10 @@
       "main-post-one main-post-two"
       "main-post-three main-post-four"
       "main-post-five main-post-six";
+  }
+
+  .main-post-one a {
+    text-decoration: none;
   }
 
   .main-post-one.profile-pic {
@@ -145,11 +153,26 @@
     padding-right: 15.625rem;
     padding-bottom: 4.375rem !important;
   }
+
+  .pre-footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    padding-right: 4.5rem !important;
+    background-color: #303134;
+    gap: 0.5rem;
+    padding-left: 7rem !important;
+  }
   
   .pre-footer-social {
     padding-top: 4.2rem !important;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
+  }
+
+  .pre-footer-social a {
+    text-decoration: none;
   }
 
   .footer-logo {
@@ -185,6 +208,14 @@
     background-color: #a646a7;
     gap: 1rem;
     margin-top: 0.5rem;
+  }
+
+  .main-navigation-list li a:hover {
+    color: #202124;
+  }
+
+  .main-navigation-list li a:active {
+    color: #381638;
   }
 
   .dimitri {
@@ -333,4 +364,34 @@
     font-size: 1em;
     font-weight: 300;
   }
+
+.tag-one,
+.tag-two,
+.tag-three {
+  display: flex;
+  gap: 2rem;
+  color: #a646a7;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.tag-one a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #a646a7;
+}
+
+.tag-two a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #a646a7;
+}
+
+.tag-three a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #a646a7;
+}
 }
