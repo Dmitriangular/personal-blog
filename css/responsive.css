@@ -37,7 +37,7 @@
     margin-right: 12.5rem;
   }
 
-  .main-post {
+  .cards {
     grid-area: main-post;
     display: grid;
     gap: 2.5rem;
@@ -48,65 +48,65 @@
       "main-post-five main-post-six";
   }
 
-  .main-post-one a {
+  .cards a {
     text-decoration: none;
   }
 
-  .main-post-one.profile-pic {
+  .card-one.profile-pic {
     width: 1.25rem;
   }
 
-  div.main-post-one.post{
+  div.card-one.post{
     grid-area: main-post-one;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
   
-  div.main-post-two.post {
+  div.card-two.post {
     grid-area: main-post-two;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
   
-  div.main-post-three {
+  div.card-three {
     grid-area: main-post-three;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
   
-  div.main-post-four {
+  div.card-four {
     grid-area: main-post-four;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 
-  div.main-post-five {
+  div.card-five {
     grid-area: main-post-five;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 
-  div.main-post-six {
+  div.card-six {
     grid-area: main-post-six;
     margin-bottom: 2.5rem;
   }
 
-  .main-post-one img {
+  .card-one img {
     border-radius: 10px;
   }
 
-  .main-post-two img {
+  .card-two img {
     border-radius: 10px;
   }
 
-  .main-post-three img {
+  .card-three img {
     border-radius: 10px;
   }
 
-  .main-post-four img {
+  .card-four img {
     border-radius: 10px;
   }
 
-  .main-post-five img {
+  .card-five img {
     border-radius: 10px;
   }
 
-  .main-post-six img {
+  .card-six img {
     border-radius: 10px;
   }
 
@@ -241,22 +241,22 @@
     color: #a646a7;
   }
 
-  .main-post-one {
+  .card-one {
     grid-area: main-post-one;
     margin-bottom: 1.875rem;
   }
 
-  .main-post-two {
+  .card-two {
     grid-area: main-post-two;
     margin-bottom: 1.875rem;
   }
 
-  .main-post-three {
+  .card-three {
     grid-area: main-post-three;
     margin-bottom: 1.875rem;
   }
 
-  .main-post-four {
+  .card-four {
     grid-area: main-post-four;
     margin-bottom: 1.875rem;
   }
@@ -269,10 +269,6 @@
     display: flex;
     gap: 2rem;
     padding-bottom: 0;
-  }
-
-  time {
-    font-weight: 600;
   }
 
   .cat-1 {
