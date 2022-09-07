@@ -1,6 +1,7 @@
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   body {
     background: #202124;
+    margin: 0 auto;
   }
 
   .header {
@@ -29,23 +30,29 @@
   }
 
   .main {
+    margin: 0 auto;
     display: grid;
     gap: 2.5rem;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "main-post main-post sidebar";
-    margin-left: 12.5rem;
-    margin-right: 12.5rem;
+    grid-template-areas: "cards cards sidebar";
+    
+    /* margin-left: 12.5rem;
+    margin-right: 12.5rem; */
+  }
+  .sidebar {
+    grid-area: sidebar;
   }
 
+
   .cards {
-    grid-area: main-post;
+    grid-area: cards;
     display: grid;
     gap: 2.5rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "main-post-one main-post-two"
-      "main-post-three main-post-four"
-      "main-post-five main-post-six";
+      "card-one card-two"
+      "card-three card-four"
+      "card-five card-six";
   }
 
   .cards a {
@@ -57,32 +64,32 @@
   }
 
   div.card-one.post{
-    grid-area: main-post-one;
+    grid-area: card-one;
     margin-bottom: 1rem;
   }
   
   div.card-two.post {
-    grid-area: main-post-two;
+    grid-area: card-two;
     margin-bottom: 1rem;
   }
   
   div.card-three {
-    grid-area: main-post-three;
+    grid-area: card-three;
     margin-bottom: 1rem;
   }
   
   div.card-four {
-    grid-area: main-post-four;
+    grid-area: card-four;
     margin-bottom: 1rem;
   }
 
   div.card-five {
-    grid-area: main-post-five;
+    grid-area: card-five;
     margin-bottom: 1rem;
   }
 
   div.card-six {
-    grid-area: main-post-six;
+    grid-area: card-six;
     margin-bottom: 2.5rem;
   }
 
@@ -123,10 +130,14 @@
 
   .contact-bottom {
     display: flex;
-    flex-direction: row;
-    margin-left: 6.25rem;
-    margin-right: 6.25rem;
-    gap: 2.5rem;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+
+    /* margin-left: 6.25rem;
+    margin-right: 6.25rem; */
+    
   }
 
   .contact-info {
@@ -242,22 +253,22 @@
   }
 
   .card-one {
-    grid-area: main-post-one;
+    grid-area: card-one;
     margin-bottom: 1.875rem;
   }
 
   .card-two {
-    grid-area: main-post-two;
+    grid-area: card-two;
     margin-bottom: 1.875rem;
   }
 
   .card-three {
-    grid-area: main-post-three;
+    grid-area: card-three;
     margin-bottom: 1.875rem;
   }
 
   .card-four {
-    grid-area: main-post-four;
+    grid-area: card-four;
     margin-bottom: 1.875rem;
   }
 
