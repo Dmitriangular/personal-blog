@@ -137,11 +137,11 @@ main {
 }
 
 .cards {
-  grid-area: main-post;
+  /* grid-area: main-post;
   display: grid;
   gap: 2.5rem;
   grid-template-columns: fit-content;
-  grid-template-areas: "main-post-one";
+  grid-template-areas: "main-post-one"; */
 }
 
 .card-one.profile-pic {
@@ -175,9 +175,9 @@ main {
   padding-bottom: 2em;
 }
 
-#img-container {
+/* #img-container {
     margin: 0;
-}
+} */
 
 .img-cap {
   padding-top: 0;
@@ -190,7 +190,7 @@ main {
 .card-one img {
   border-radius: 10px;
   margin-top: 3rem;
-  width: 25.8rem;
+  width: 100%;
 }
 
 .author {
@@ -526,4 +526,84 @@ button.btn-3 a {
   padding: 1.563rem;
   margin: 0;
   color: #303134;
+}
+
+
+@media (min-width: 600px) {
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #a646a7;
+    height: 6.25rem;
+  }
+
+  .main-navigation-list {
+    padding-top: 2rem;
+    display: flex;
+    gap: 2rem;
+
+  }
+  .dimitri {
+    padding: 3rem 0 3rem 12rem ;
+    
+  }
+
+  .author .profile-pic{
+    width: 4%;
+  }
+
+  .back-link a {
+    padding-left: 12rem;
+    padding-top: 3rem;
+    
+  }
+
+  .main {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "cards sidebar";
+    gap: 3rem;
+
+  }
+
+  .cards {
+    grid-area: cards;
+  }
+
+  .aside {
+    grid-area: aside;
+  }
+
+  #img-container img {
+    width: 100%;
+  }
+
+  .contact-bottom {
+
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+
+  }
+
+  .pre-footer {
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  .pre-footer-social {
+    padding-top: 4.5rem;
+  }
+
 }
